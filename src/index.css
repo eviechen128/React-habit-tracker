@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+  background-color: var(--color-emerald-950);
+  color: var(--color-emerald-50);
+}
