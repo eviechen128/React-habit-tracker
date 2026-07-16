@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/React-habit-tracker/',
+  
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
